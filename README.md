@@ -10,6 +10,6 @@
   git add .
   git commit -m "descreption"
   git branch -M main
-  git remote add origin https://github.com/your user name/ITC_Chellenge_submittion.git
+  git remote add origin https://github.com/your user name/ITC_Challenge_submittion.git
   git push -u origin main
  ```
