@@ -1,0 +1,208 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding: 1.5rem 7% ;
+   
+    top: 0; left: 0;right: 0;
+    z-index: 1000;
+}
+    
+
+.header .logo{
+    height: 5rem;
+    
+}
+.header .logo img{
+    height: 5em;
+}
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+   text-decoration: none;
+   font-family:'Rajdhani', sans-serif;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(images/home.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home h3 {
+    font-size: 3rem;
+    font-family: 'Rajdhani', sans-serif;
+   color: #ff0054;
+   margin-top: 39.5rem;
+
+}
+
+body{
+    background-image: url(images/background.webp);
+    color: white;
+    
+}  
+.boody{
+    margin: 0.5rem;
+    margin-left:2rem ;
+    margin-right: 2rem;
+  
+}
+.about p{
+    font-size: 2rem;
+    padding: 0.5rem 0;
+    line-height:1.8 ;
+    color: #ccc;
+}
+.heading{
+    text-align: justify;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    padding-top: 4rem;
+    font-size: 3rem;
+    padding-left: 3rem;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.heading span{
+    color: #ff0054;
+    text-transform: uppercase;
+}
+.options .opt1{
+display: flex;
+align-items: center;
+gap: 1rem;
+}
+.options .opt1 .image1{
+    flex: 1 1 45rem;
+}
+.options .opt1 .image1 img{
+    width: 100%;
+    border-radius: 13%;
+    
+}
+.options .opt1 .card1{
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+.options .opt1 .card1 h4{
+    font-size: 2.5rem;
+
+}
+.options .opt1 .card1 p{
+    font-size: 2rem;
+    padding: 1rem 0;
+    line-height:1.8 ;
+    color: #ccc;
+}
+.options .opt2{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    }
+    .options .opt2 .image2{
+        flex: 1 1 45rem;
+    }
+    .options .opt2 .image2 img{
+        width: 100%;
+        border-radius: 13%;
+        
+    }
+    .options .opt2 .card2{
+        flex: 1 1 45rem;
+        padding: 2rem;
+    }
+    .options .opt2 .card2 h4{
+        font-size: 2.5rem;
+    
+    }
+    .options .opt2 .card2 p{
+        font-size: 2rem;
+        padding: 1rem 0;
+        line-height:1.8 ;
+        color: #ccc;
+    }
+    .review .box-container{
+       display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+        gap: 1.5rem;
+        margin-top: 3rem;
+        margin-left:2rem ;
+        margin-right: 2rem;
+    
+
+    }
+    .review .box-container .box{
+        border:var(--border);
+        border-style: ridge;
+        text-align: center;
+        padding:3rem 2rem;
+    }
+    .review .box-container .box p{
+        font-size:  1.6rem; 
+        line-height:1.8 ;
+        color: #ccc;
+        padding: 2rem 0;
+        font-family: 'Forum', serif;
+    }
+    .review .box-container .box .user{
+       height: 7rem; 
+       width:7rem ;
+
+    }
+    .review .box-container .box h2{
+        padding: 1rem 0;
+        font-size: 2rem;
+    }
+    .review .box-container .box .stars i{
+        font-size: 1.5rem;
+        color:var(--main-color) ;
+        
+    }
+     input {
+        position: relative;
+       margin-left: 15rem;
+        width: 75%;
+        outline: none;
+        font-size: 2.2em;
+        padding: 0 30px;
+        line-height:80px ; 
+        border-radius: 10px;
+        border: 2px solid #f0ffff;
+
+
+    }
+    .footer{
+        width: 100%;
+        height: 200px;
+        padding: 20px 0;
+        margin: 0;
+        margin-top: 57px;
+        background-color:#1A1919 ;
+
+    }
+    .footer img{
+        height: 11rem;
+        width: 20rem;
+        margin-left: 67em;
+        margin-top: -8rem;
+
+    }
+    
